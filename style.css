@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+#block-early-adoption.notion-link {
+  display: none;
+}
+.notion-navbar {
+  display: none;
+}
+
+.super-content {
+  padding-top: 200px;
+}
+
+.notion-header__cover {
+  display: none;
+}
+
+#block-secret-preorder.notion-link {display:none}
+
+.info {
+  color: blue;
+  font-size: 22px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  
+}
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 120px;
+  height: 58px;
+  background-image: url('https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9e0fdc7e-f22d-4df0-b511-ee5b90210b8d/mo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210727T205831Z&X-Amz-Expires=86400&X-Amz-Signature=519680564cd71c5dadc2450d6ff42343a87447a1378af29a9c6a29a39fec5977&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22mo.png%22');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transition: 0.2s ease;
+  display: block;
+  cursor: po;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+* {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+h2, h2 span, .notion-heading {
+  color: blue;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+
+.notion-header__title {
+  display: none;
+}
+
+.notion-text__content {
+  color: black;
+  font-size: 22px;
+}
+
+footer {
+  color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  background-color: #f3eee8;
+  border-radius: 20px;
+}
+
+footer span {
+  display:block;
+  margin-bottom: 10px;
+}
+
+a, a:active, a:visited  {
+  color: blue;
+}
+
+a:hover {
+  color: #f24923;
+}
